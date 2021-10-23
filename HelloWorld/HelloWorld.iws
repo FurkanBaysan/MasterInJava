@@ -86,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635000778737</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Variables Part1">
+      <created>1635016613020</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635016613020</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Variables Usage Part1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Variables Usage Part1" />
+    <MESSAGE value="Variables Part1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Variables Part1" />
   </component>
 </project>

@@ -13,6 +13,7 @@ public class Main {
         System.out.println("-- Overflow and Underflow Issue -- ");
         System.out.println("Busted MAX Value =" + (maxIntValue + 1));
         System.out.println("Busted MIN Value =" + (minIntValue - 1));
+        System.out.print("\n");
 
     /* If type a number that bigger or smaller than the max or min value
         java will flag as an Error, namely if we use it as a literal.
@@ -36,6 +37,18 @@ public class Main {
 
         long bigLongLiteralValue = 2_147_483_647_234L;
         System.out.println(bigLongLiteralValue);
+        System.out.println("\n");
+
+
+        int total = (minIntValue / 2);
+
+        System.out.println("--TypeCasting--");
+        // It requires byte right part the assign operator but find int.
+        byte newByteValue = (byte) (minByteValue / 2); // Error Disappeared
+        System.out.println("After Type-Casting, The byte Value = " + newByteValue);
+        // It requires short right part the assign operator but find int.
+        short newShortValue = (short) (minShortValue / 2); //Error Disappeared
+        System.out.println("After Type-Casting, The short Value = " + newShortValue);
 
 
     }
