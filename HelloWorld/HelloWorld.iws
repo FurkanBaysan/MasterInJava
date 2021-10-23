@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88d779b2-4cd5-4a6c-b735-9dfad231ddb1" name="Changes" comment="Variables Usage Part1" />
+    <list default="true" id="88d779b2-4cd5-4a6c-b735-9dfad231ddb1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/HelloWorld.iws" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Hello.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +41,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -63,6 +66,18 @@
       <option name="presentableId" value="Default" />
       <updated>1634742831698</updated>
     </task>
+    <task id="LOCAL-00001" summary="Variables Usage Part1">
+      <created>1634997314317</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634997314317</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Variables Usage Part1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Variables Usage Part1" />
   </component>
 </project>

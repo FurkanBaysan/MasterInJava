@@ -24,7 +24,7 @@ public class Hello {
         // --Challenge--
         int lastOne = 1000 - total;
         System.out.println("Value of lastOne:" + lastOne);
-        
+
 
     }
 }
