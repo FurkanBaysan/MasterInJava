@@ -17,6 +17,7 @@ public class Main {
     /* If type a number that bigger or smaller than the max or min value
         java will flag as an Error, namely if we use it as a literal.
          ->  int maxIntTest = 2147483648; // kızar.
+
          */
         byte minByteValue = Byte.MIN_VALUE;
         byte maxByteValue = Byte.MAX_VALUE;
