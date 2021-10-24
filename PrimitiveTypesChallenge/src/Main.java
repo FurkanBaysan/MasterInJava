@@ -9,7 +9,6 @@ public class Main {
         long totalResult = 50000L + 10L * (firstNumber + secondNumber + thirdNumber);
         System.out.println("Result = " + totalResult);
 
-
         // This is not a part of a challenge, but we show it because it needs type-casting unlike the case in Challenge.
         short total = (short) (1000 + 10 * (firstNumber + secondNumber + thirdNumber));
 
