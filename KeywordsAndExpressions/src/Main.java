@@ -12,5 +12,10 @@ public class Main {
             System.out.println("Congrats, you got the High Score!");
             score = 0;
         }
+
+        // score=100 -> Expression
+        //score>90 -> Expression
+        // ("Congrats, you got the high score!) -> Expression because it's a method call.
+        //score=0 -> Expression.
     }
 }
