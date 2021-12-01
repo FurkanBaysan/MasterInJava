@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6393f16-9e10-4f0e-aab4-88afa348cc3a" name="Changes" comment="" />
+    <list default="true" id="e6393f16-9e10-4f0e-aab4-88afa348cc3a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ConditionalBlocksAndMethodsExercises.iws" beforeDir="false" afterPath="$PROJECT_DIR$/ConditionalBlocksAndMethodsExercises.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConditionalBlocksAndMethodsExercises/SpeedConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConditionalBlocksAndMethodsExercises/SpeedConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BarkingDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BarkingDog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DecimalComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecimalComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EqualSumChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EqualSumChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeapYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeapYear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MegaBytesConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MegaBytesConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpeedConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpeedConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeenNumberChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeenNumberChecker.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,14 +43,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
-  <component name="RunManager" selected="Application.TeenNumberChecker">
-    <configuration name="BarkingDog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BarkingDog" />
-      <module name="ConditionalBlocksAndMethodsExercises" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DecimalComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DecimalComparator" />
       <module name="ConditionalBlocksAndMethodsExercises" />
@@ -62,6 +65,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ConditionalBlocksAndMethodsExercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TeenNumberChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TeenNumberChecker" />
       <module name="ConditionalBlocksAndMethodsExercises" />
@@ -71,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TeenNumberChecker" />
         <item itemvalue="Application.EqualSumChecker" />
         <item itemvalue="Application.DecimalComparator" />
         <item itemvalue="Application.LeapYear" />
-        <item itemvalue="Application.BarkingDog" />
       </list>
     </recent_temporary>
   </component>
@@ -88,6 +98,19 @@
       <option name="presentableId" value="Default" />
       <updated>1638253211235</updated>
     </task>
+    <task id="LOCAL-00001" summary="Conditional Blocks and Methods Algorithms">
+      <created>1638336996736</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638336996736</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Conditional Blocks and Methods Exercises" />
+    <MESSAGE value="Conditional Blocks and Methods Algorithms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conditional Blocks and Methods Algorithms" />
   </component>
 </project>

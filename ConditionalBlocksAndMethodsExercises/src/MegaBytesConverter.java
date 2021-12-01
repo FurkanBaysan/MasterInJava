@@ -1,8 +1,4 @@
 public class MegaBytesConverter {
-    public static void main(String[] args) {
-        printMegaBytesAndKiloBytes(2500);
-    }
-
     public static void printMegaBytesAndKiloBytes(int kiloBytes) {
         int megaBytesCorrespondingKiloBytes = kiloBytes / 1024;
         int remainingKiloBytes = kiloBytes % 1024;
