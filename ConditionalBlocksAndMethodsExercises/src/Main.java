@@ -1,3 +1,5 @@
+import java.awt.geom.Area;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("\t" + "-- Speed Converter --");
@@ -16,5 +18,15 @@ public class Main {
         System.out.println("\t" + "-- Teen Number Checker --");
         System.out.println(TeenNumberChecker.hasTeen(87, 25, 35));
         System.out.println(TeenNumberChecker.isTeen(185));
+        System.out.println("\t" + "--Area of Circle and Rectangle--");
+        System.out.println(AreaCalculator.area(5.0));
+        System.out.println(AreaCalculator.area(5.0, 4.0));
+        System.out.println("\t" + "--Years and Days Corresponding Minutes--");
+        MinutesToYearsDaysCalculator.printYearsAndDays(561600);
+        System.out.println("\t" + "--Equality Printer--");
+        IntEqualityPrinter.printEqual(1, 2, 1);
+        System.out.println("\t" + "--Playing Cat--");
+        System.out.println(PlayingCat.isCatPlaying(false, 35));
+
     }
 }

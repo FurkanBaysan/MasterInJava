@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6393f16-9e10-4f0e-aab4-88afa348cc3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../SecondsAndMinutesChallenge/SecondsAndMinutesChallenge.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SecondsAndMinutesChallenge/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConditionalBlocksAndMethodsExercises.iws" beforeDir="false" afterPath="$PROJECT_DIR$/ConditionalBlocksAndMethodsExercises.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
