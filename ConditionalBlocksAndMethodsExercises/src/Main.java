@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("\t" + "-- Speed Converter --");
-        System.out.println(SpeedConverter.toMilesPerHour(-5.6) + " " + "Miles");
-        SpeedConverter.printConversion(-5.6);
+        System.out.println(SpeedConverter.toMilesPerHour(10.5) + " " + "Miles");
+        SpeedConverter.printConversion(10.5);
         System.out.println("\t" + "-- MegaBytes Converter --");
         MegaBytesConverter.printMegaBytesAndKiloBytes(2500);
         System.out.println("\t" + "-- Barking Dog --");
@@ -16,6 +16,5 @@ public class Main {
         System.out.println("\t" + "-- Teen Number Checker --");
         System.out.println(TeenNumberChecker.hasTeen(87, 25, 35));
         System.out.println(TeenNumberChecker.isTeen(185));
-
     }
 }

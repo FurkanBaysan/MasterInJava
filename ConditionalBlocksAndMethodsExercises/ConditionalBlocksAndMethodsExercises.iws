@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e6393f16-9e10-4f0e-aab4-88afa348cc3a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/ConditionalBlocksAndMethodsExercises.iws" beforeDir="false" afterPath="$PROJECT_DIR$/ConditionalBlocksAndMethodsExercises.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ConditionalBlocksAndMethodsExercises/SpeedConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConditionalBlocksAndMethodsExercises/SpeedConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BarkingDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BarkingDog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DecimalComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecimalComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EqualSumChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EqualSumChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeapYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeapYear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MegaBytesConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MegaBytesConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SpeedConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpeedConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TeenNumberChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeenNumberChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638336996736</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Conditional Blocks and Methods Algorithms">
+      <created>1638338420373</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638338420374</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
