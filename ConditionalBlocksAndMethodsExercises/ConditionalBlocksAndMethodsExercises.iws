@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6393f16-9e10-4f0e-aab4-88afa348cc3a" name="Changes" comment="Conditional Blocks and Methods Algorithms">
-      <change beforePath="$PROJECT_DIR$/src/AreaCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AreaCalculator.java" afterDir="false" />
+    <list default="true" id="e6393f16-9e10-4f0e-aab4-88afa348cc3a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ConditionalBlocksAndMethodsExercises.iws" beforeDir="false" afterPath="$PROJECT_DIR$/ConditionalBlocksAndMethodsExercises.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638637285719</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Conditional Blocks and Methods Algorithms">
+      <created>1638871813146</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638871813146</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
