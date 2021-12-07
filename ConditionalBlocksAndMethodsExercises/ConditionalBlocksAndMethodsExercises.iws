@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6393f16-9e10-4f0e-aab4-88afa348cc3a" name="Changes" comment="">
+    <list default="true" id="e6393f16-9e10-4f0e-aab4-88afa348cc3a" name="Changes" comment="Conditional Blocks and Methods Algorithms">
       <change beforePath="$PROJECT_DIR$/ConditionalBlocksAndMethodsExercises.iws" beforeDir="false" afterPath="$PROJECT_DIR$/ConditionalBlocksAndMethodsExercises.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConditionalBlocksAndMethodsExercises/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConditionalBlocksAndMethodsExercises/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +105,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638338420374</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Conditional Blocks and Methods Algorithms">
+      <created>1638637244403</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638637244403</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Conditional Blocks and Methods Algorithms">
+      <created>1638637285719</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638637285719</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
