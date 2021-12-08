@@ -27,6 +27,9 @@ public class Main {
         IntEqualityPrinter.printEqual(1, 2, 1);
         System.out.println("\t" + "--Playing Cat--");
         System.out.println(PlayingCat.isCatPlaying(false, 35));
-
+        System.out.println("\t" + "--Number In Word--");
+        NumberInWord.printNumberInWord(9);
+        System.out.println("\t" + "--Number Of Days In Month--");
+        System.out.println(NumberOfDaysInMonth.getDaysInMonth(1, 2020));
     }
 }
