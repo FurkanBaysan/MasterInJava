@@ -15,7 +15,7 @@ public class Main {
                 }
             }
         }
-        //After the Loop we print the sum of numbers can be divided by both 3 and 5.
+        //After the Loop we print the sum of numbers
         System.out.println("Sum:" + " " + sum);
     }
 }
