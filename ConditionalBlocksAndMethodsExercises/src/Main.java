@@ -27,5 +27,6 @@ public class Main {
         IntEqualityPrinter.printEqual(1, 2, 1);
         System.out.println("\t" + "--Playing Cat--");
         System.out.println(PlayingCat.isCatPlaying(false, 35));
+
     }
 }
