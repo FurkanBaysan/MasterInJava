@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("\t" + "--For Loop--");
+
         System.out.println("10000 at 2% interest = " +
                 calculateInterest(10000.0, 2.0));
         System.out.println("10000 at 3% interest = " +
