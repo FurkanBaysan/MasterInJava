@@ -22,7 +22,7 @@ public class Main {
             System.out.println("Count Value:" + " " + count);
             count++;
         } while (count != 6);
-        System.out.println("\t" + "-- Do-While Loop Break Usage --");
+        System.out.println("\t" + "-- Do-While Loop: Break Usage --");
         count = 6;
         do {
             System.out.println("Count Value:" + " " + count);
@@ -30,7 +30,7 @@ public class Main {
             if (count > 20)
                 break;
         } while (count != 6);
-        System.out.println("\t" + "--Challenge--");
+        System.out.println("\t" + "--Challenge: Continue Keyword Usage in While Loop--");
         int startNumber = 4;
         int finishNumber = 20;
         while (startNumber <= finishNumber) {
@@ -40,7 +40,7 @@ public class Main {
             }
             System.out.println("Even Number:" + " " + startNumber);
         }
-        System.out.println("\t" + "--Challenge--");
+        System.out.println("\t" + "--Challenge: Continue and Break Keyword Usage in While Loop--");
         startNumber = 4;
         count = 0;
         while (startNumber <= finishNumber) {
