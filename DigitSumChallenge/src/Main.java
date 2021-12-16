@@ -6,7 +6,7 @@ public class Main {
 
     public static int sumDigits(int number) {
         int sum = 0;
-        if ((number <= 0) || (number > 0 && number < 9)) { // can be sim
+        if ((number <= 0) || (number > 0 && number < 9)) {
             return -1;
         } else {
             while (number != 0) {
