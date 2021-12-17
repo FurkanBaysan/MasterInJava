@@ -8,5 +8,7 @@ public class Main {
         System.out.println("\t" + "--Sum Odd Challenge--");
         System.out.println(SumOddRange.isOdd(91));
         System.out.println(SumOddRange.sumOdd(100, 1000));
+        System.out.println("\t" + "--Number Palindrome Challenge--");
+        System.out.println(NumberPalindrome.isPalindrome(2552));
     }
 }
