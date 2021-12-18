@@ -11,6 +11,6 @@ public class Main {
         System.out.println("\t" + "--Number Palindrome Challenge--");
         System.out.println(NumberPalindrome.isPalindrome(2552));
         System.out.println("\t" + "--First and Last Digit Sum Challenge--");
-        System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(2589));
+        System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(8769));
     }
 }
