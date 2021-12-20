@@ -16,6 +16,8 @@ public class Main {
         System.out.println(EvenDigitSum.getEvenDigitSum(123456789));
         System.out.println("\t" + "--Shared Digit Challenge--");
         System.out.println(SharedDigit.hasSharedDigit(53, 26));
-    }
+        System.out.println("\t" + "--Last Digit Checker Challenge--");
+        System.out.println(LastDigitChecker.hasSameLastDigit(92, 932, 822));
 
+    }
 }
