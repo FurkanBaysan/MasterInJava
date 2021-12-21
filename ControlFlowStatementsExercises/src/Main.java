@@ -22,5 +22,9 @@ public class Main {
         System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(30, 12));
         System.out.println("\t" + "--All Factors Challenge--");
         AllFactors.printFactors(32);
+        System.out.println("\n");
+        System.out.println("\t" + "--Perfect Number Challenge--");
+        System.out.println(PerfectNumber.isPerfectNumber(28));
+
     }
 }
