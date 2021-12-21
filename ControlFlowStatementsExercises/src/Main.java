@@ -20,6 +20,7 @@ public class Main {
         System.out.println(LastDigitChecker.hasSameLastDigit(92, 932, 822));
         System.out.println("\t" + "--Greatest Common Divisor--");
         System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(30, 12));
-
+        System.out.println("\t" + "--All Factors Challenge--");
+        AllFactors.printFactors(32);
     }
 }
