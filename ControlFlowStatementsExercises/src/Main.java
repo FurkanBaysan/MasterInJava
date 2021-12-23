@@ -25,6 +25,9 @@ public class Main {
         System.out.println("\n");
         System.out.println("\t" + "--Perfect Number Challenge--");
         System.out.println(PerfectNumber.isPerfectNumber(28));
-
+        System.out.println("\t" + "--Number To Words Challenge--");
+        NumberToWords.numberToWords(100);
+        System.out.println(NumberToWords.reverse(2564));
+        System.out.println(NumberToWords.getDigitCount(5487));
     }
 }
