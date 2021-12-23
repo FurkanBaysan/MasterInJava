@@ -29,5 +29,7 @@ public class Main {
         NumberToWords.numberToWords(100);
         System.out.println(NumberToWords.reverse(2564));
         System.out.println(NumberToWords.getDigitCount(5487));
+        System.out.println("\t" + "--Flour Pack Problem--");
+        System.out.println(FlourPacker.canPack(0, 5, 4));
     }
 }
