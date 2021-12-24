@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -31,5 +33,7 @@ public class Main {
         System.out.println(NumberToWords.getDigitCount(5487));
         System.out.println("\t" + "--Flour Pack Problem--");
         System.out.println(FlourPacker.canPack(0, 5, 4));
+        System.out.println("\t" + "--Largest Prime Challenge--");
+        System.out.println(LargestPrime.getLargestPrime(217));
     }
 }
