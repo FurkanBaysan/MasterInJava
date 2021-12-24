@@ -35,5 +35,7 @@ public class Main {
         System.out.println(FlourPacker.canPack(0, 5, 4));
         System.out.println("\t" + "--Largest Prime Challenge--");
         System.out.println(LargestPrime.getLargestPrime(217));
+        System.out.println("\t" + "--Diagonal Star Pattern--");
+        DiagonalStar.printSquareStar(8);
     }
 }
