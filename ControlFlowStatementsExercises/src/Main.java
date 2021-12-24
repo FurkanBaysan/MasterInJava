@@ -37,5 +37,6 @@ public class Main {
         System.out.println(LargestPrime.getLargestPrime(217));
         System.out.println("\t" + "--Diagonal Star Pattern--");
         DiagonalStar.printSquareStar(8);
+
     }
 }
