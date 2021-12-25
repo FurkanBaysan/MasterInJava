@@ -19,8 +19,8 @@ public class Main {
         }
     }
 
-    public static void calculateAge(String name, int dateOfbirth, int year) {
-        int userAge = year - dateOfbirth;
+    public static void calculateAge(String name, int dateOfBirth, int year) {
+        int userAge = year - dateOfBirth;
         // Problem 1 Solution
         if (userAge > 0 && userAge <= 100) {
             System.out.println("User" + " " + name + "'s Age:" + " " + userAge);
