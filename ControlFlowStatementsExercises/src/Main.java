@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.Scanner;
 
 public class Main {
@@ -39,5 +40,9 @@ public class Main {
         DiagonalStar.printSquareStar(8);
         System.out.println("\t" + "--Input Calculator Challenge--");
         InputCalculator.inputThenSumAndAverage();
+        System.out.println("\t" + "--Paint Job Challenge--");
+        System.out.println(PaintJob.getBucketCount(3.4, 2.1, 1.5, 2));
+        System.out.println(PaintJob.getBucketCount(7.25, 4.3, 2.35));
+        System.out.println(PaintJob.getBucketCount(3.26, 0.75));
     }
 }
