@@ -11,7 +11,6 @@ public class Main {
             boolean isAnNumber = scanner.hasNextInt();
             if (isAnNumber) {
                 int number = scanner.nextInt();
-
                 if (number > maxNumber) {
                     maxNumber = number;
                 }
