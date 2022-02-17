@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("\t" + "Sorted Array Exercise --");
+        System.out.println("\t" + "-- Sorted Array Exercise --");
         int[] inputHolderArray;
         inputHolderArray = SortedArray.getIntegers(5);
         System.out.println("\t" + "Printing Unsorted Array");
@@ -9,5 +9,10 @@ public class Main {
         SortedArray.sortIntegers(inputHolderArray);
         System.out.println("\t" + "Printing Sorted Array");
         SortedArray.printArray(inputHolderArray);
+        System.out.println("\t" + "-- Minimum Element Exercise --");
+        int returnedCount = MinimumElement.readInteger();
+        int[] returnedArray = MinimumElement.readElements(returnedCount);
+        int returnedMinimum = MinimumElement.findMin(returnedArray);
+        System.out.println("Minimum Element: " + returnedMinimum);
     }
 }
