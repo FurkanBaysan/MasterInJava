@@ -14,5 +14,8 @@ public class Main {
         int[] returnedArray = MinimumElement.readElements(returnedCount);
         int returnedMinimum = MinimumElement.findMin(returnedArray);
         System.out.println("Minimum Element: " + returnedMinimum);
+        System.out.println("\t" + "-- Reverse Array Challenge --");
+        int[] originalArray = new int[]{1, 2, 3, 4, 5};
+        ReverseArray.reverse(originalArray);
     }
 }
