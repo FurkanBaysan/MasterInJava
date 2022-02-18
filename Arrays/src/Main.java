@@ -78,4 +78,5 @@ public class Main {
         average = (double) (sum / array.length);
         return average;
     }
+
 }
