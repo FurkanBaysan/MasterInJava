@@ -23,11 +23,17 @@ public class MobilePhone {
     }
 
     public void removeContactItem(String fullName, String phoneNumber) {
-        Contact contactItem = findContactItem(fullName, phoneNumber);
-        contactsList.remove(contactItem);
+        /* Using the findContactItem(contactFullName,contactPhoneNumber), we can directly find the specified
+         Contact Object as we can see below
+         */
+        // Contact currentContact = findContactItem(fullName, phoneNumber);
+        Integer contactItemPosition = findContactItemPosition(fullName, phoneNumber);
+        Contact contact = contactsList.get(contactItemPosition);
+        contactsList.remove(contact);
     }
 
-    private Contact findContactItem(String contactFullName, String contactPhoneNumber) {
+    // This method find the specified Contact Object
+    public Contact findContactItem(String contactFullName, String contactPhoneNumber) {
 
         String resultFullName = " ";
         String resultPhoneNumber = " ";
@@ -44,14 +50,23 @@ public class MobilePhone {
         return contact;
     }
 
-    private Integer findContactItemPosition(String currentContactFullName) {
-        int position = contactsList.indexOf(currentContactFullName);
-        return position;
+    // This method find the index (position) of specified Contact Object
+    public Integer findContactItemPosition(String contactFullName, String contactPhoneNumber) {
+
+        Contact contact = new Contact();
+
+        for (int i = 0; i < contactsList.size(); i++) {
+            if (contactFullName.equals(contactsList.get(i).getName()) &&
+                    contactPhoneNumber.equals(contactsList.get(i).getPhoneNumber())) {
+                contact = contactsList.get(i);
+            }
+        }
+        return contactsList.indexOf(contact);
     }
 
-    public boolean onFile(String searchContactFullName) {
+    public boolean onFile(String contactFullName) {
         for (int i = 0; i < contactsList.size(); i++) {
-            if (searchContactFullName.equals(contactsList.get(i).getName())) {
+            if (contactFullName.equals(contactsList.get(i).getName())) {
                 return true;
             }
         }
