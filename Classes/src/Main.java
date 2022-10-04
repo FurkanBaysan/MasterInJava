@@ -9,5 +9,6 @@ public class Main {
         Car secondCar = new Car();
         secondCar.setModel("Mercedes");
         System.out.println("Model: " + secondCar.getModel());
+
     }
 }
