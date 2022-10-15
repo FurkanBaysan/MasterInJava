@@ -5,6 +5,20 @@ public class Account {
     private String customerEmailAddress;
     private String customerPhoneNumber;
 
+    public Account() {
+
+    }
+
+    public Account(String accountNumber, double balance, String customerName, String customerEmailAddress, String customerPhoneNumber) {
+        this.accountNumber = accountNumber;
+        //setAccountNumber(accountNumber);
+
+        this.balance = balance;
+        this.customerName = customerName;
+        this.customerEmailAddress = customerEmailAddress;
+        this.customerPhoneNumber = customerPhoneNumber;
+    }
+
     public String getAccountNumber() {
         return this.accountNumber;
     }
@@ -54,8 +68,7 @@ public class Account {
     public void withdrawal(double withdrawalAmount) {
         if (this.balance < withdrawalAmount) {
             System.out.println("Insufficient Balance. " + "Only " + this.balance + " available." + " withdrawal not processed");
-        }
-        else {
+        } else {
             this.balance = this.balance - withdrawalAmount;
             System.out.println("Withdrawal of " + withdrawalAmount + " processed. Remaining Balance: " + this.balance);
         }
